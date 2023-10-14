@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3d1d1c2895.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#"
+            ><img src="./AK__2_-removebg-preview.png" alt="LOGO" class="logo"
+          /></a>
+
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfoio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'm <span>Govardhan</span><br />from India</h1>
+          <p class="line">Web Developer ,</p>
+          <p class="line">UI/UX Designer,</p>
+          <p class="line">Video Editor.</p>
+        </div>
+      </div>
+    </div>
+    <!-- ********************** ABOUT ******************* -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://w0.peakpx.com/wallpaper/814/285/HD-wallpaper-best-anime-boy-listening-music-best-anime-boy-anime-boy-listening-music-cute-anime-boy.jpg"
+              alt="person-Standing"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="Subtitle-1">About Me</h1>
+            <p>
+              I am Govardhan, an aspiring IT professional hailing from a
+              distinguished naval background, which instilled in me values of
+              discipline and adaptability. Currently, I am on the path to
+              completing my B.Tech in Computer Science, with an expected
+              graduation in 2024. My academic journey is a testament to my
+              unwavering dedication to mastering the intricacies of technology.
+              I am excited to channel my unique experiences and technical
+              knowledge into a promising and dynamic career in the IT industry,
+              where I am committed to contributing my best and delivering
+              excellence.
+            </p>
+
+            <div class="tab-tittles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web App Interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Developing Web Apps using
+                  HTML,CSS,JS & React JS
+                </li>
+                <li>
+                  <span>App Development</span><br />Building Android
+                  Applications using Java
+                </li>
+                <li>
+                  <span>Video and Photo Editor</span><br />Photoshop and Sony
+                  Vegas Pro
+                </li>
+                <li>
+                  <span>Web Scrapping</span><br />Learning Axeos and Cheerio
+                  using React JS
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022-23</span><br />
+                  Intern at Lunatic Games as Frontend Developer
+                </li>
+                <li>
+                  <span>2023</span><br />Intern at Demy Software Solutions(DSS)
+                  for AWS Training
+                </li>
+                <li>
+                  <span>2022</span><br />Summer Intern at HMI for Machine
+                  Learning using Python
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020 - 24</span><br />
+                  Btech CS Graduate at NSRIT
+                </li>
+                <li>
+                  <span>2018 - 20</span><br />Intermediate pass at Narayana
+                  Junior College
+                </li>
+                <li>
+                  <span>2017 - 18</span><br />10th pass at Navy Children
+                  School(NCS)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- SERVICES --------------------- -->
+    <div id="services"></div>
+    <div class="container">
+      <h1 class="Subtitle-1">My Services</h1>
+      <div class="service-list">
+        <div class="amb">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h2>Web Development</h2>
+          <p>
+            I excel in HTML, CSS, JavaScript, and React JS, employing these
+            talents to craft static websites for my college, Lunatic Games, and
+            personal projects. My proficiency extends to backend development,
+            particularly in working with Firebase and integrating websites with
+            Google Sheets for seamless communication. This combination of
+            front-end and back-end skills highlights my dedication to creating
+            functional and user-friendly web solutions.
+          </p>
+          <!-- <a href="#">Learn More</a> -->
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UX/UI Design</h2>
+          <p>
+            Since my second year of B.Tech, I've been deeply engaged in UX/UI
+            design, driven by an unwavering passion for crafting innovative and
+            creative websites. Recognizing that this phase is the foundation of
+            any development process, I've continuously expanded my knowledge and
+            skills in this domain. My expertise in Figma, a vital tool in the
+            design process, has enabled me to design five applications,
+            including Instagram, Mockups, and a React Native app. This profound
+            commitment to UX/UI design underscores my dedication to achieving
+            excellence in web and app development.
+          </p>
+          <!-- <a href="#">Learn More</a> -->
+        </div>
+        <div>
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h2>App Development</h2>
+          <p>
+            With substantial experience in both React Native and Java, I have
+            effectively harnessed these technologies through tools like Visual
+            Studio Code. As an Android enthusiast, I have cultivated my skills
+            by developing a diverse range of applications, showcasing my
+            proficiency in this tech stack. My track record in app development
+            underscores my dedication to creating innovative and efficient
+            solutions in the mobile space.
+          </p>
+          <!-- <a href="#">Learn More</a> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- PORTFOLIO --------------------- -->
+    <div id="portfoio">
+      <div class="container">
+        <h1 class="Subtitle-1">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./abc.gif" alt="" />
+            <div class="layer">
+              <h3>Automated Virtual Recruitment System (AVRS)</h3>
+              <p>
+                AVRS revolutionizes hiring with AI & NLP, efficiently matching
+                talent to positions, enhancing recruitment processes.
+              </p>
+              <a href="https://ben-121.github.io/AHRS/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./iPhone-15-Pro.gif" alt="" />
+            <div class="layer">
+              <h3>Smart Farm App</h3>
+              <p>
+                The "Smart Farm Application" combines React-Native with Machine
+                Learning to monitor temperatures, detect plant diseases, and
+                recommend pesticides, while offering guidance through "Farm GPT"
+                for improved farming practices.
+              </p>
+              <a href="https://github.com/Ben-121/myfarmi-mains"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./B-Mockups,-PSD.gif" alt="" />
+            <div class="layer">
+              <h3>Weather Detection Using API</h3>
+              <p>
+                API-driven weather detection to provide real-time weather
+                information. Through seamless integration with weather data
+                sources, users can access accurate and up-to-date weather
+                forecasts.
+              </p>
+              <a href="https://ben-121.github.io/WeatherCheck/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Ben-121" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- ----------------------CONTACT----------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="Subtitle-1">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>sparkingscar@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 6301989826</p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/vallem-govardhan-kumar-a92545231/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/_ig_ben__/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/Ben222210"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.facebook.com/benValorant32/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+            <a href="./Govardhan Kumar.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="" name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Emal"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message...."
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sad = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sad.style.right = "0";
+      }
+
+      function closemenu() {
+        sad.style.right = "-200px"; // Set the right property to a valid value, e.g., "-200px"
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx6teoz953TgL__nFG8FV6ZqGZecPkbsxRUbN4fwshL4Yj3nuLeTAaj0i80DBT6DssW_Q/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
